@@ -1,0 +1,25 @@
+.container {
+   max-width: 1200px;
+   display: flex;
+   justify-content: space-around;
+   margin: 0 auto; /* Centraliza Elementos na Tela */
+   flex-wrap: wrap; 
+   /* Flex-Wrap: Garante que os componentes filhos não ultrapassem a largura máxima do PAI(1200px)  */
+   /* Faz os filhos descerem para linha de baixo e não ultrapassem o Comp. PAI */
+}
+
+.min-height {
+   min-height: 75%;
+}
+
+.start {
+   justify-content: flex-start;
+   /* Coloca os conteúdos para o INÍCIO DA LINHA, cancela o "justify-content: space-between;" */
+}
+
+.column{
+   flex-direction: column;
+   justify-content: flex-start;
+   /* Criar um layoute por COLUNAS visto que o flex vem como LINEAR
+   e alinha os ITENS no INÍCIO DA COLUNA*/
+}
